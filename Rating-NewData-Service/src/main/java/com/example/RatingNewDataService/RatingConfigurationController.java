@@ -15,6 +15,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class RatingConfigurationController {
 	@RequestMapping(value = "/limits", method = RequestMethod.GET)
 	public RatingConfiguration retriveLimitsFromConfigurations() {
-		return new RatingConfiguration(3000, 3);
+		return new RatingConfiguration(3000, 30);
 	}
 }
