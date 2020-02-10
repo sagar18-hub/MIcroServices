@@ -22,7 +22,7 @@ public class ItemsCatalogApplication {
 	@Data
 	@AllArgsConstructor
 	@NoArgsConstructor
-	@ToString
+	@ToString	
 	@Entity
 	class Item {
 
